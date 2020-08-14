@@ -1,0 +1,115 @@
+html{
+  background-color: grey;
+  text-align: center;
+}
+
+body{
+  text-align: -webkit-center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.App {
+  width: 70%;
+  height: 100%;
+  background-color: ghostwhite;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 80px;
+  grid-template-areas: "col-1 col-1 col-1 col-2" "col-1 col-1 col-1 col-2" "col-1 col-1 col-1 col-2";
+}
+
+.col-1 { grid-area: col-1; }
+
+.col-2 { grid-area: col-2; }
+
+.inner-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "col-i-1 col-i-2 col-i-2 col-i-2" "col-i-1 col-i-2 col-i-2 col-i-2" "col-i-1 col-i-2 col-i-2 col-i-2";
+}
+
+.col-i-1 { grid-area: col-i-1; }
+
+.col-i-2 { grid-area: col-i-2; }
+
+p{
+  text-align: justify;
+}
+
+h4{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+
+}
+
+.icon{
+  width: 30px;
+}
+
+.photo{
+  width: 150px;
+}
+
+.photoCard{
+  border: 1px solid dodgerblue;
+}
+
+.figContactPlate > center{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightgrey;
+  border-top: 1px solid grey;
+}
+
+#ref1 > center{
+  padding-bottom: 10px;
+}

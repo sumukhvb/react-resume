@@ -1,0 +1,16 @@
+{
+  "general": {
+    "name": "Raushan Kumar",
+    "contact": {
+      "github": "Github",
+      "linkedin": "Linkedin",
+      "twitter": "Twitter",
+    }
+  },
+  "skills": {
+    "Languages": ["C","C++","Java","Javascript","Python"],
+    "Database": ["MySQL", "MongoDB"],
+    "Web technology": ["HTML", "CSS", "ReactJS", "Bootstrap4", "NodeJS", "ExpressJS", "Mongoose", "MaterialUI"],
+    "Tools": ["VSCode", "Anaconda", "IntelliJ IDEA", "WebStorm", "MongoDB Compass", "MySQL Workbench"],
+  }
+}
